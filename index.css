@@ -2,8 +2,24 @@
     width: 100%;
     height: 100px;
     background-color: red;
+    display: flex;
+    justify-content: space-between;
 }
 body{
     padding: 0%;
     margin: 0%;
+}
+.sectiongauche{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: blue;
+
+}
+.sectiondroite{
+       height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color:yellow;
 }
